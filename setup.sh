@@ -45,7 +45,6 @@
     echo "                                                                                   ";
     echo "                                                                                   ";
     echo "          DO NOT USE ROOT      DO NOT USE ROOT          DO NOT USE ROOT            ";
-fi
 export LC_ALL=C
 case $1 in
     install)
