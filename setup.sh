@@ -34,9 +34,7 @@
 #  \____|_| |_| |\___/ \__, | (_)
 #            _/ |       __/ |    
 #           |__/       |___/   
-var_user=$(whoami)
-if [ $(whoami) == "root" ]; then
-    clear
+
     echo "          DO NOT USE ROOT      DO NOT USE ROOT          DO NOT USE ROOT            ";
     echo "  _____           _        _ _                   _                _           _    ";
     echo " |_   _|         | |      | | |                 | |              | |         | |   ";
@@ -94,8 +92,7 @@ case $1 in
                 echo "                                   ";
                 echo "                                   ";
                 read -p "Your system must now reboot (Press [enter])"
-                sudo reboot now
-                exit
+            
             fi
             spin()
             {
